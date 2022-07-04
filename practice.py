@@ -63,3 +63,15 @@ total = 0
 for x in new_set2:
     total += x
 print (total)
+
+#lists
+a = [3, 10, -1]
+print(a)
+a.append("hello") #adding 2 to the list
+print(a)
+a.append([1, 2]) #Adding a list within the list
+print(a)
+a.pop()#deleting recently added data/last item in the list
+print(a[0])#getting the first item in the list
+a[0] = 100 #changing contents of the list
+print(a)
