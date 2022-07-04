@@ -75,3 +75,8 @@ a.pop()#deleting recently added data/last item in the list
 print(a[0])#getting the first item in the list
 a[0] = 100 #changing contents of the list
 print(a)
+
+#sample exercise, switch the first item in the list below with the last
+b = ["windows", "mac", "linux"]
+b[0], b[2] = b[2], b[0]
+print(b)
