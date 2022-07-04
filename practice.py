@@ -45,3 +45,11 @@ new_list1 = list()
 for x in new_list1:
     new_list1.append(x)
 print(new_list1)
+
+#adding things that arent numbers
+b = set()
+b.add('apple')
+b.add('banana')
+b.add(1)
+b.add(7)
+print(b)
