@@ -53,3 +53,13 @@ b.add('banana')
 b.add(1)
 b.add(7)
 print(b)
+
+#simple exercise, finding sum of unique elements
+given_list2 = [1,3,4,1,3]
+new_set2 = set()
+for x in given_list2:
+    new_set2.add(x)
+total = 0
+for x in new_set2:
+    total += x
+print (total)
