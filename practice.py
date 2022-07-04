@@ -18,3 +18,30 @@ for key, value in d.items():
     print("value:")
     print(value)
     print("")
+
+#sets
+a = set() #this is an empty set
+print(a)
+
+#adding one element in the set
+a.add(1)
+print(a)
+
+a.add(2345)
+print(a)
+
+for x in a:
+    print(x)
+
+#removing duplicate values using sets
+given_list1 = [1, 1, 3, 3, 3, 2, 4, 5, 6, 5, 6, 2, 7, 8, 9, 7, 8, 9, 10, 10, 7]
+new_set1 = set()
+for x in given_list1:
+    new_set1.add(x)
+print(new_set1)
+
+#create a new list with unique elements from first list
+new_list1 = list()
+for x in new_list1:
+    new_list1.append(x)
+print(new_list1)
