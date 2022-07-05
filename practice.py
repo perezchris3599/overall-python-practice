@@ -242,3 +242,13 @@ if a > b:
     print("a is greater than b")
 if True:
     print("a is greater than b")
+
+    boolean_value = a > b
+    print(boolean_value)
+
+#another sample
+def are_you_sad(is_rainy, has_umbrella):
+    if is_rainy and not has_umbrella:
+        return True
+    else:
+        return False
