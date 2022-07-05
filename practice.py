@@ -235,3 +235,10 @@ while True:
         break
     print(total5)
 
+#booleans
+a =7
+b = 5
+if a > b:
+    print("a is greater than b")
+if True:
+    print("a is greater than b")
