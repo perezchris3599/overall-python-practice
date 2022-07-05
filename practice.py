@@ -80,3 +80,23 @@ print(a)
 b = ["windows", "mac", "linux"]
 b[0], b[2] = b[2], b[0]
 print(b)
+
+#list comprehensions
+a = [1, 3, 5, 7, 9, 11]
+b = []
+b.append(10)
+b.append(20)
+b.append(30)
+b.append(40)
+print(b)
+
+#making double the numbers in a
+c = []
+for x in a:
+    c.append(x * 2)
+print(c)
+
+#simpler syntax
+d = [x * 2 for x in a]
+print(d)
+
