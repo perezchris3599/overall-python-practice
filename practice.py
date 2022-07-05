@@ -141,3 +141,15 @@ total = 0
 for e in b:
     total = total + e
 print(total)
+
+#another way of getting total.. to print 1,2,3 4
+c =list(range(1, 5))
+print(c)
+# using a for loop to create the above
+for i in range(1, 5):
+    print(i)
+#getting total of the above
+total2 = 0
+for i in range(1, 5):
+    total2 += i
+print(total2)
