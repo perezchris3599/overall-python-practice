@@ -130,3 +130,8 @@ print(a[2])
 for element in a:
     print(element)
     print(element)#this makes each element to be printed twice
+
+#example 2
+b = [20, 10, 5, 2.5]
+for x in b:
+    print(x)
