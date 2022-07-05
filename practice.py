@@ -216,3 +216,12 @@ while given_list[i] > 0:
     i += 1
 print(total3)
 
+#adding the break statement
+given_list2 = [5, 4, 4, 3, 1, -2, -3, -5]
+total4 = 0
+for element in given_list2:
+    if element <= 0:
+        break
+    total4 += element
+print(total4)
+
