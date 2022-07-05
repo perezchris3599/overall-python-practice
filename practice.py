@@ -100,3 +100,22 @@ print(c)
 d = [x * 2 for x in a]
 print(d)
 
+#another example
+e1 = []
+for x in range(1, 7):
+    e1.append(x ** 2)
+print(e1)
+#simpler syntax
+e2 = [x ** 2 for x in range(1, 7)]
+print(e2)
+
+#sample exercise
+for x in range(6, 0, -1): #to count numbers from 6 in descending order
+    print(x)
+f1 = []
+for x in range(6, 0, -1):
+    f1.append(x**2)
+print(f1)
+#using list comprehension
+f2 = [x**2 for x in range(6, 0, -1)]
+print(f2)
