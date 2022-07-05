@@ -135,3 +135,9 @@ for element in a:
 b = [20, 10, 5, 2.5]
 for x in b:
     print(x)
+#making the total of the items
+b = [20, 10, 5, 2.5]
+total = 0
+for e in b:
+    total = total + e
+print(total)
