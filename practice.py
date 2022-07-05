@@ -161,3 +161,14 @@ for i in range(1, 8):
     if i % 3 == 0:
         total3 += i
 print(total3)
+#all multiples of 3,5 that are less than 100
+print(list(range(1, 100)))
+#more about for loops
+a = ["one", "two", "three"]
+for x in a:
+    print(x)
+
+#another method to do the above
+for i in range(len(a)):
+    for j in range(i + 1):
+        print(a[i])
