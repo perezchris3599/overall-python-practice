@@ -126,3 +126,6 @@ a = ["banana", "apple", "berry"]
 print(a[0])
 print(a[1])
 print(a[2])
+#the most efficient way ..using a for loop
+for element in a:
+    print(element)
