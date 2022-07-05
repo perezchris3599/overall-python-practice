@@ -225,3 +225,13 @@ for element in given_list2:
     total4 += element
 print(total4)
 
+#another alternative
+total5 = 0
+i = 0
+while True:
+    total5 += given_list2[i]
+    i += 1
+    if given_list2[i] <= 0:
+        break
+    print(total5)
+
