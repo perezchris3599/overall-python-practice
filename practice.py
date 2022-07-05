@@ -129,3 +129,4 @@ print(a[2])
 #the most efficient way ..using a for loop
 for element in a:
     print(element)
+    print(element)#this makes each element to be printed twice
