@@ -119,3 +119,10 @@ print(f1)
 #using list comprehension
 f2 = [x**2 for x in range(6, 0, -1)]
 print(f2)
+
+#for loops
+a = ["banana", "apple", "berry"]
+#to print each of the above, youd usually do this;
+print(a[0])
+print(a[1])
+print(a[2])
