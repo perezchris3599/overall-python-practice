@@ -67,12 +67,16 @@ print (total)
 #lists
 a = [3, 10, -1]
 print(a)
+
 a.append("hello") #adding 2 to the list
 print(a)
+
 a.append([1, 2]) #Adding a list within the list
 print(a)
+
 a.pop()#deleting recently added data/last item in the list
-print(a[0])#getting the first item in the list
+print(a[0])
+#getting the first item in the list
 a[0] = 100 #changing contents of the list
 print(a)
 
@@ -105,6 +109,7 @@ e1 = []
 for x in range(1, 7):
     e1.append(x ** 2)
 print(e1)
+
 #simpler syntax
 e2 = [x ** 2 for x in range(1, 7)]
 print(e2)
@@ -116,6 +121,7 @@ f1 = []
 for x in range(6, 0, -1):
     f1.append(x**2)
 print(f1)
+
 #using list comprehension
 f2 = [x**2 for x in range(6, 0, -1)]
 print(f2)
@@ -145,14 +151,17 @@ print(total)
 #another way of getting total.. to print 1,2,3 4
 c =list(range(1, 5))
 print(c)
+
 # using a for loop to create the above
 for i in range(1, 5):
     print(i)
+
 #getting total of the above
 total2 = 0
 for i in range(1, 5):
     total2 += i
 print(total2)
+
 #using range
 print(list(range(1, 8)))
 #getting total of the range
@@ -161,6 +170,7 @@ for i in range(1, 8):
     if i % 3 == 0:
         total3 += i
 print(total3)
+
 #all multiples of 3,5 that are less than 100
 print(list(range(1, 100)))
 #solution
@@ -178,6 +188,7 @@ for i in range(1, 100):
     if i % 3 == 0 or i % 5 == 0:
         total += i
     print(total)
+
 #more about for loops
 a = ["one", "two", "three"]
 for x in a:
@@ -252,3 +263,8 @@ def are_you_sad(is_rainy, has_umbrella):
         return True
     else:
         return False
+
+#another example
+def are_you_sad(is_rainy, has_umbrella):
+    return is_rainy and not has_umbrella
+are_you_sad(True, False)
