@@ -16,12 +16,13 @@
 class Robot:
     def introduce_self(self):
         print("My name is " + self.name)
+        print("My color is " + self.color)
 
 #create an object
 r1 = Robot()
 r1.name = "Tom"
 r1.color = "red"
-r1.weight = "30"
+r1.weight = 30
 
 #created object 2
 r2 = Robot()
