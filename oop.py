@@ -59,5 +59,7 @@ class Person:
 
 p1 = Person("Alice", "aggressive", False)
 p2 = Person("Becky", "talkative", True)
-
+#p1 owns r2
+p1.robot_owned = r2
+p2.robot_owned = r1
 
