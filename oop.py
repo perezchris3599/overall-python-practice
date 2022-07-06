@@ -63,3 +63,4 @@ p2 = Person("Becky", "talkative", True)
 p1.robot_owned = r2
 p2.robot_owned = r1
 
+p1.robot_owned.introduce_self()
