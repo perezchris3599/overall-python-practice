@@ -270,3 +270,5 @@ def are_you_sad(is_rainy, has_umbrella):
 are_you_sad(True, False)
 
 #tuples
+tuple_1 = ('History', 'math', 'physics', 'compsci')
+tuple_2 = tuple_1
