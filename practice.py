@@ -279,3 +279,5 @@ print(tuple_1)
 print(tuple_2)
 
 #more sets
+cs_courses = {'History', 'Mtc', 'Physics', 'binary'}
+print(cs_courses)
