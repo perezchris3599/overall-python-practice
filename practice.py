@@ -272,3 +272,8 @@ are_you_sad(True, False)
 #tuples
 tuple_1 = ('History', 'math', 'physics', 'compsci')
 tuple_2 = tuple_1
+
+tuple_1[0] = '_Art_'
+
+print(tuple_1)
+print(tuple_2)
