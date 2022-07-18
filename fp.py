@@ -73,3 +73,11 @@ print(mx(8,5))
 
 mx = lambda x, y: x if x >  y else y
 print(mx(8, 5))
+
+#map function
+#instead of
+List, [m, n, p]
+function, f()
+
+# map does
+list, [f(m), f(n), f(p)]
