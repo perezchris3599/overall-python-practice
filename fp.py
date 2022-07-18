@@ -38,4 +38,14 @@ p_func(3, 4)
 p_func = functools.partial(func, 10, 12)
 p_func(3)
 
+#recursion
+def loop(n):
+    for x in xrange(int(n)):
+        a = 1 + 1
+
+def recurse(n):
+    if n <= 0:
+        return
+    a = 1 + 1
+    recurse(int(n) -1)
 
