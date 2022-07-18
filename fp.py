@@ -27,3 +27,15 @@ func.__closure__
 func.__closure__[0]
 func.__closure__[0].cell_contents
 
+#partial functions
+import functools
+def func(a, b, c):
+    return a, b, c
+
+p_func = functools.partial(func, 10)
+p_func(3, 4)
+
+p_func = functools.partial(func, 10, 12)
+p_func(3)
+
+
