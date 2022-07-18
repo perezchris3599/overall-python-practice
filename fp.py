@@ -49,3 +49,8 @@ def recurse(n):
     a = 1 + 1
     recurse(int(n) -1)
 
+#lambda
+def use_callback(callback, arg):
+    return callback(arg)
+
+    use_callback(lambda arg: arg * 2, 10)
