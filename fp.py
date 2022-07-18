@@ -61,3 +61,15 @@ def add(x, y):
 
 #lambda does
 lambda x, y: x + y
+
+#another lambda example
+#instead of
+def mx(x, y):
+    if x > y:
+        return x
+    else:
+        return y
+print(mx(8,5))
+
+mx = lambda x, y: x if x >  y else y
+print(mx(8, 5))
