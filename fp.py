@@ -54,3 +54,7 @@ def use_callback(callback, arg):
     return callback(arg)
 
     use_callback(lambda arg: arg * 2, 10)
+
+#instead of
+def add(x, y):
+    return x + y
