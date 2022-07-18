@@ -105,3 +105,16 @@ def over_two(lst1):
 #do
 n = [4,3,2,1]
 print(list(filter(lambda x: x>2, n)))
+
+#reduce function
+def mult (lst1):
+    prod = lst1[0]
+    for i in range(1, len(lst1)):
+        prod *= lst[i]
+    return prod
+
+print mult([4,3,2,1])
+
+#instead do
+n = [4,3,2,1]
+print (reduce(lambda x,y: x*y, n))
